@@ -52,6 +52,7 @@ function gameEngine(){
         ];
         foodPosition = { x:10, y:10};
         scoree = 0;
+        score.innerHTML = "Score: " + scoree
         currKey = 2;
         alert('Game Over - Please press Enter to restart!!!')
 
